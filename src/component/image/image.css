@@ -178,8 +178,8 @@
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    width: 55px;
-    height: 108px;
+    width: 60px;
+    height: 60px;
     transition: all 03s ease;
     font-weight: 50;
     color: var(--main-color-one);
