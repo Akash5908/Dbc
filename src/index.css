@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900|Poppins:200,300,300i,400,400i,500,600,700,800&display=swap");
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+:root {
+    --main-color-one: #f3941e;
+    --main-color-two: #071c55;
+    --heading-color: #071c55;
+    --paragraph-color: #666;
+    --heading-font: "Playfair Display", serif;
+    --body-font: "Poppins", sans-serif;
+    --body-font-size: 15px;
+    --body-font-width: 400;
+    --body-line-height: 32px;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    overflow-x: hidden;
+    font-family: var(--body-font);
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    -moz-osx-font-smoothing: grayscale;
+    /* Firefox */
+    -webkit-font-smoothing: antialiased;
+    /* WebKit  */
+}
+
+body {
+    margin: 0;
+    color: var(--paragraph-color);
+    overflow-x: hidden;
+    font-family: var(--body-font);
+    font-size: var(--body-font-size);
+    font-weight: var(--body-font-width);
+    line-height: var(--body-line-height);
+}

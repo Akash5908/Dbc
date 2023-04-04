@@ -1,0 +1,111 @@
+:root {
+    --main-color-one: #f3941e;
+    --main-color-two: #071c55;
+    --heading-color: #071c55;
+    --paragraph-color: #666;
+    --heading-font: "Playfair Display", serif;
+    --body-font: "Poppins", sans-serif;
+    --body-font-size: 15px;
+    --body-font-width: 400;
+    --body-line-height: 32px;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    overflow-x: hidden;
+    font-family: var(--body-font);
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    -moz-osx-font-smoothing: grayscale;
+    -firefox-webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0;
+    color: var(--paragraph-color);
+    overflow-x: hidden;
+    font-family: var(--body-font);
+    font-size: var(--body-font-size);
+    font-weight: var(--body-font-width);
+    line-height: var(--body-line-height);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+}
+
+@media (max-width: 1550px) {
+    :root {
+        --body-font-size: 15px;
+        --body-line-height: 28px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+a i {
+    padding: 0 2px;
+}
+
+
+
+/* ------------Blog---------- */
+
+.single-blog .tag {
+    background: #01b9b7;
+    padding: 0 6px 0 7px;
+    height: 25px;
+    line-height: 25px;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+
+.single-blog .single-blog-details .title {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.btn-read-more {
+    color: var(--main-color-one);
+}
+
+.btn-read-more span {
+    position: relative;
+    padding-right: 10px;
+}
+
+.btn-read-more span i {
+    position: absolute;
+    top: 2px;
+    font-size: 22px;
+    margin-left: 2px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+/* ------------Blog---------- */
+
+
+
+
+/* <------------Partner-------------> */
+
