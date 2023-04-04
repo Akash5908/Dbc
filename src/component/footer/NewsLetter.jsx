@@ -10,7 +10,9 @@ const NewsLetter = () => {
                         <div className="row newsletter-row">
                             <div className="col-xl-3 col-lg-6 col-md-5 offset-xl-2">
                                 <div className="section-title mb-md-0">
-                                    <h2 className='title'>Newsletter</h2>
+                                   <h1 style={{ 
+                                    fontWeight: "700", fontSize: '53px', color: "var(--heading-color)",
+                                    fontFamily: "var(--heading-font)"}}>Newsletter</h1>
                                     <p>Sign up to receive the best offers</p>
                                 </div>
                             </div>
