@@ -1,4 +1,4 @@
----------------------------*/ .pre-wrap {
+.pre-wrap {
   position: fixed;
   content: "";
   -webkit-transform: translate(-100%, -240%);
